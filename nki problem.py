@@ -1,8 +1,8 @@
 n,k=map(int,input().split())
-arr=[]
+a=[]
 c=0
-arr=list(map(int,input().split()))
-for i in range(0,len(arr)-1):
+a=list(map(int,input().split()))
+for i in range(0,len(a)-1):
     if i<k:
-        c=c+arr[i]
+        c=c+a[i]
 print(c)
